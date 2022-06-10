@@ -127,5 +127,6 @@ monogatari.script ({
 		'jump Scene1_Start'
 	],
 	...scene1,
-	...scene2
+	...scene2,
+	...scene3
 });
