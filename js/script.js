@@ -86,7 +86,16 @@ monogatari.assets ('music', {
 
 // Define the voice files used in the game.
 monogatari.assets ('voices', {
-	'1_leek_1': 'scene1/leek/1.mp3'
+	'1_leek_1': 'scene1/leek/1.mp3',
+	'leek_intro1':'classroomScene/leek/Leek_Intro_1.wav',
+	'leek_intro2' : 'classroomScene/leek/Leek_Intro_2_ver2.wav',
+	'leek_intro3' : 'classroomScene/leek/Leek_Intro_3.wav',
+	'leek_intro4' : 'classroomScene/leek/Leek_Intro_4_ver2.wav',
+	'leek_intro5' : 'classroomScene/leek/Leek_Intro_5.wav',
+	'leek_intro6' : 'classroomScene/leek/Leek_Intro_6.wav',
+	'leek_intro7' : 'classroomScene/leek/Leek_Intro_7.wav',
+	'leek_intro8' : 'classroomScene/leek/Leek_Intro_8.wav',
+	'leek_intro8_2' : 'classroomScene/leek/Leek_Intro_8_ver2.wav'
 });
 
 // Define the sounds used in the game.
@@ -107,7 +116,11 @@ monogatari.assets ('images', {
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
 	cafe_interior: 'cafe-interior.jpg',
-	cafe_exterior: 'cafe-exterior.jpg'
+	cafe_exterior: 'cafe-exterior.jpg',
+	chatting_leek: 'chatting-leek.png',
+	science_building: 'science-building.png',
+	library: 'library.jpg',
+	split_cafe_and_library: 'split_cafe_and_library.png'
 });
 
 
@@ -173,8 +186,10 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'jump Scene1_Start'
+		//'jump Scene1_Start'
+		'jump ClassroomScene_Start'
 	],
 	...scene1,
-	...scene2
+	...scene2,
+	...classroomscene
 });
