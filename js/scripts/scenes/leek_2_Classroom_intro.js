@@ -1,5 +1,5 @@
-const classroomscene = {
-  'ClassroomScene_Start': [
+const leek_2_Classroom_intro = {
+  'leek_2_Classroom_intro_Start': [
       'play music ow with loop with fade 20',
       'show scene chatting_leek with fadeIn duration 1s',
       '<p class = "boldedText">Thank you so much!!! Can you come to Lecture Hall A at the Sciences Building, I’m still in class rn</p>',
@@ -62,12 +62,12 @@ const classroomscene = {
       '*Just pretend this is university bg*',
       '<p class = "italicText">I ended up chatting with Leek a few times over the next week or so, but I still haven’t met up with her yet. She said she’s a biomedical engineering major, which sounds…complicated, to say the least. She is a couple years above me and seems busy with schoolwork and studying, even though it’s only the beginning of the year.</p>',
       '<p class = "italicText">Eventually, she lets me know that she’d be down to meet up over the weekend, just to chill somewhere.</p>',
-      'jump ClassroomScene_Choice'
+      'jump leek_2_Classroom_intro_Choice'
       //'<p class = "italicText"></p>',
       
     ],
 
-    'ClassroomScene_Choice':[
+    'leek_2_Classroom_intro_Choice':[
       'show background split_cafe_and_library with fadeIn duration 1s',
       {
         'Choice': {

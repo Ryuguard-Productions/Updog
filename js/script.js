@@ -187,9 +187,9 @@ monogatari.script ({
 			}
 		},
 		//'jump Scene1_Start'
-		'jump ClassroomScene_Start'
+		'jump leek_2_Classroom_intro_Start'
 	],
 	...scene1,
 	...scene2,
-	...classroomscene
+	...leek_2_Classroom_intro
 });
