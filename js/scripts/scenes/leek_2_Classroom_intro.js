@@ -1,5 +1,5 @@
 const leek_2_Classroom_intro = {
-  //these error man istg
+
   'leek_2_Classroom_intro_Start': [
       'play music ow with loop with fade 20',
       'show scene chatting_leek with fadeIn duration 1s',
