@@ -15,3 +15,5 @@ function generateVoices(length, character, identifier, directory, extension = 'm
 monogatari.assets ('voices', {
 	...leekIntroVoices
 });
+
+//const leekLibrary1AVoices = generateVoices(14, 'leek', 'library1A', 'leekLibrary1A', 'wav');

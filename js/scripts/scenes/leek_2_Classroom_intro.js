@@ -54,7 +54,7 @@ const leek_2_classroom_intro = {
     'show character leek smile with fadeIn',
     '<p class = "italicText">I hand Leek my phone and she adds herself to my tiny list of contacts. Taking it back, I can see that she added herself as “Leek” with a little emoji of a green onion next to her name. It makes me giggle a little bit, until I see the time at the top of the screen.</p>',
     'Oh! I need to get going to my class! Um, should I-',
-    'play voice leek_intro_8_2',
+    'play voice leek_intro_9',
     'leek:smile Don’t worry, I’ll let you know when I’m available. You try not to fail on your first day.',
     '<p class = "italicText">She waves me off and I quickly make my way out of the building at a quick pace, a smile stuck to my face. My first friend came easier than I expected.</p>',
     'show scene cafe_exterior with fadeIn duration 1s',
@@ -64,17 +64,17 @@ const leek_2_classroom_intro = {
     'jump leek_2_classroom_intro_choice'
   ],
   'leek_2_classroom_intro_choice':[
-    'show background split_cafe_and_library with fadeIn duration 1s',
+    'show background split_cafe_and_library with showScene duration 1s',
     {
       'Choice': {
         'Dialog': '<p class = "italicText">She wants to know which place works best for me…</p>',
         'Yes': {
           'Text': 'Library',
-          'Do': 'jump Scene2_Start'
+          'Do': 'jump leek_3_Library_1A_start'
         },
         'No': {
           'Text': 'Cafe',
-          'Do': 'jump Scene1_Start'
+          'Do': ''
         }
       }
     }

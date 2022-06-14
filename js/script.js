@@ -106,7 +106,8 @@ monogatari.assets ('scenes', {
 	chatting_leek: 'chatting-leek.png',
 	science_building: 'science-building.png',
 	library: 'library.jpg',
-	split_cafe_and_library: 'split_cafe_and_library.png'
+	split_cafe_and_library: 'split_cafe_and_library.png',
+	black_screen:'black-screen.png'
 });
 
 // Define the Characters
@@ -174,5 +175,6 @@ monogatari.script ({
 		'jump leek_2_classroom_intro_start'
 	],
 	...leek_2_classroom_intro,
+  	...leek_3_Library_1A,
   // create-new-scene-helper
 });
