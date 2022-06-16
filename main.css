@@ -303,11 +303,15 @@ quick-menu.transparent {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
+text-box [data-content=character-expression] {
+	background: rgb(255 255 255 / 10%);
+	border-radius: 50%;
+}
+
 .showScene {
 	animation: showScene .5s ease-out;
 	transform-origin: center;
 }
-
 
 .boldedText {
 	font-weight: bold;

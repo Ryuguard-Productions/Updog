@@ -175,6 +175,6 @@ monogatari.script ({
 		'jump leek_2_classroom_intro_start'
 	],
 	...leek_2_classroom_intro,
-  	...leek_3_Library_1A,
+	...leek_3_Library_1A,
   // create-new-scene-helper
 });
