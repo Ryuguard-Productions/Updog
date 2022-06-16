@@ -104,7 +104,9 @@ const leek_3_Library_1A = {
     //bgm here
     '<p class = "italicText">The two of us finish our study session, a little more tired and a little smarter (hopefully) than when we started.</p>',
     '<p class = "italicText">The weeks and classes continue to pass by, and Leek and I meet more and more often for…whatever really. Like when she invites me to her dorm one day…</p>',
-    '*move to new scene'
+    'show scene library with fadeOut duration 1.5s',
+    'wait 2000',
+    'jump leek_5_Room_2A_start'
   ],
 
   'leek_3_Library_1A_No':[
@@ -113,7 +115,7 @@ const leek_3_Library_1A = {
     //typing sfx
     //bgm
     'show scene library with fadeOut duration 2s',
-    'wait 3000',
+    'wait 2000',
    // 'show scene black_screen with fadeOut duration 2s',
     'show background library with fadeIn duration 2s',
     '...hmm?',
@@ -125,6 +127,8 @@ const leek_3_Library_1A = {
     '<p class = "italicText">I hold my phone in my hand and sigh to myself. After a minute of awkwardly trying to respond, I just pack up my things and leave the message alone.</p>',
     '<p class = "italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class = "italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
-    '*move to new scene'
+    'show scene library with fadeOut duration 1.5s',
+    'wait 2000',
+    'jump leek_5_Room_2A_start'
   ]
 };
