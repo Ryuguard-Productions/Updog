@@ -113,7 +113,8 @@ monogatari.assets ('scenes', {
 	leek_room_nightlight: 'Otome_BG_Leeks_Room_NightLIGHT_Finished.jpg',
 	leek_room_sunset: 'Otome_BG_Leeks_Room_SUNSET.jpg',
 	leek_good_end: 'HappyEndLeek.png',
-	school_gate:'School_gate.jpg'
+	school_gate:'School_gate.jpg',
+	grey_bg:'greyBG.png'
 });
 
 // Define the Characters
@@ -184,5 +185,6 @@ monogatari.script ({
 	...leek_3_Library_1A,
 	...leek_4_Room_GoodEnd,
 	...leek_5_Room_2A,
+  ...leek_6_Cafe_1B,
   // create-new-scene-helper
 });

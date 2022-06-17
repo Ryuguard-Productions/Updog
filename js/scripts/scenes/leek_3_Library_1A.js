@@ -1,6 +1,8 @@
 const leek_3_Library_1A = {
   'leek_3_Library_1A_start': [
-    'show scene library with fadeIn duration 1s',
+    'show scene split_cafe_and_library with fadeOut duration 2s',
+    'wait 3000',
+    'show scene library with fadeIn duration 2s',
     '<p class = "italicText">Both of us agree that we could stand to get a little extra studying in, along with getting out for some company, so the library seems like the perfect place for that. I walk in a few minutes before the time we agreed to meet up, just to take a look around.</p>',
     '<p class = "italicText">The library is fairly large, with some nice spaces for students to study in. Immediately though, I make my way past the groups of people to the back corner of the library where Leek said she would be</p>',
     '<p class = "italicText">There’s no windows back here to let sunlight in, but the way the lighting of the lamps shines off the wooden shelves and walls gives it a quiet, relaxed feeling. Compared to the front of the library, this area is practically empty of people.</p>',

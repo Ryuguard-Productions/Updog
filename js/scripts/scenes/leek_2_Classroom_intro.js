@@ -64,7 +64,7 @@ const leek_2_classroom_intro = {
     'jump leek_2_classroom_intro_choice'
   ],
   'leek_2_classroom_intro_choice':[
-    'show background split_cafe_and_library with showScene duration 1s',
+    'show scene split_cafe_and_library with showScene duration 1s',
     {
       'Choice': {
         'Dialog': '<p class = "italicText">She wants to know which place works best for me…</p>',
@@ -74,7 +74,7 @@ const leek_2_classroom_intro = {
         },
         'No': {
           'Text': 'Cafe',
-          'Do': ''
+          'Do': 'jump leek_6_Cafe_1B_start'
         }
       }
     }
