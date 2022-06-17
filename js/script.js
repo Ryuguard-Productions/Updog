@@ -59,6 +59,13 @@ monogatari.configuration ('credits', {
 		"RyuVA": [
 			"<a href=\"https://twitter.com/zhngls\">LEEK</a>", "?????????", "????????????,????????????????"
 		],
+		
+		"COVER: The sun and the guitar": [
+			"<a href=\"https://twitter.com/shirokuma9303">SHIROKUMA</a>", "
+		],
+		
+		
+		
 	},
 	"A/V Team": {
 		"RyuFilm": "<a href=\"https://twitter.com/ItsRyesia\">Ryesia</a>", 
