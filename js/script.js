@@ -114,7 +114,8 @@ monogatari.assets ('scenes', {
 	leek_room_sunset: 'Otome_BG_Leeks_Room_SUNSET.jpg',
 	leek_good_end: 'HappyEndLeek.png',
 	school_gate:'School_gate.jpg',
-	grey_bg:'greyBG.png'
+	grey_bg:'greyBG.png',
+	park: 'Otome_BG_Park_Kaze.jpg'
 });
 
 // Define the Characters
@@ -179,12 +180,13 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'jump leek_2_classroom_intro_start'
+		'jump main_1_University_Intro_start'
 	],
 	...leek_2_classroom_intro,
 	...leek_3_Library_1A,
 	...leek_4_Room_GoodEnd,
 	...leek_5_Room_2A,
-  ...leek_6_Cafe_1B,
+  	...leek_6_Cafe_1B,
+  	...main_1_University_Intro,
   // create-new-scene-helper
 });
