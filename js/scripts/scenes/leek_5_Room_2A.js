@@ -52,7 +52,7 @@ const leek_5_Room_2A = {
     '<p class = "italicText">I’m not sure if it’s the way the light comes through the window, but I swear there’s a little blush on her face after I say that.</p>',
     'leek:blush Well…um, sure. I don’t mind.',
     'show character leek neutral',
-    '<p class = "italicText">And with that, she gets into work mode like a flip was switched in her head.</p>',
+    '<p class = "italicText">And with that, she gets into work mode like a switch was flipped in her head.</p>',
     //Typing sfx
     '<p class = "italicText">I feel like I’ve been hearing that a lot recently: the sound of Leek’s hands, typing away at her keyboard. I like it.</p>',
     //Time change SFX

@@ -40,7 +40,7 @@ const leek_3_Library_1A = {
     'Cute...',
     'I guess I should put in the same effort…maybe a little less actually…that should be alright…',
     //another sfx/bgm here
-    '*yawn Almost done. How about you, Leek? …Leek?',
+    '*yawn* Almost done. How about you, Leek? …Leek?',
     '<p class = "italicText">Looking up from my laptop for the first time in ages, only to find Leek with her eyes closed, her head propped up on her hands and elbows on the table. </p>',
     'How long...',
     '<p class = "italicText">Now that I think about it, she did seem to be nodding off not too long ago. She must’ve been extra tired. Maybe I should just let her rest.</p>',
@@ -131,6 +131,6 @@ const leek_3_Library_1A = {
     '<p class = "italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
     'show scene library with fadeOut duration 1.5s',
     'wait 2000',
-    'jump leek_5_Room_2A_start'
+    'jump leek_7_Room_2B_start'
   ]
 };

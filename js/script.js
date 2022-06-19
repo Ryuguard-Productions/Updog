@@ -107,13 +107,14 @@ monogatari.assets ('scenes', {
 	science_building: 'science-building.png',
 	library: 'library.jpg',
 	split_cafe_and_library: 'split_cafe_and_library.png',
-	black_screen:'black-screen.png',
 	leek_room_daytime: 'Otome_BG_Leeks_Room_DAYTIME.jpg',
 	leek_room_night: 'Otome_BG_Leeks_Room_Night.jpg',
 	leek_room_nightlight: 'Otome_BG_Leeks_Room_NightLIGHT_Finished.jpg',
 	leek_room_sunset: 'Otome_BG_Leeks_Room_SUNSET.jpg',
 	leek_good_end: 'HappyEndLeek.png',
 	school_gate:'School_gate.jpg',
+	sakura_street:'OTOME_BG_Sakura_Street.jpg',
+	park: 'Otome_BG_Park_Kaze.jpg',
 	grey_bg:'greyBG.png'
 });
 
@@ -179,12 +180,14 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'jump leek_2_classroom_intro_start'
+		'jump main_1_University_Intro_start'
 	],
 	...leek_2_classroom_intro,
 	...leek_3_Library_1A,
 	...leek_4_Room_GoodEnd,
 	...leek_5_Room_2A,
-  ...leek_6_Cafe_1B,
+  	...leek_6_Cafe_1B,
+  	...main_1_University_Intro,
+  	...leek_7_Room_2B,
   // create-new-scene-helper
 });

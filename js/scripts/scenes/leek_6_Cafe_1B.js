@@ -13,11 +13,11 @@ const leek_6_Cafe_1B = {
     //Time passage sfx
     '<p class="italicText">10 minutes now...</p>',
     '<p class="italicText">…Maybe something happened? I guess I’ll shoot her a message.</p>',
-    '<p class="boldedText">Hey leek, im at the cafe! you almost here?</p>',
+    `<p class="boldedText">Hey Leek, I'm at the cafe! You almost here?</p>`,
     '<p class="italicText">A few moments pass by while I nervously stare at my screen, idly sipping at the drink that I had ordered. Leek definitely knew her stuff; this was probably the best I’ve had since moving here.</p>',
     '<p class="italicText">A couple more minutes pass by before…</p>',
     //Phone text sfx
-    'leek:none <p class="boldedText">Im so sorry i got busy with something, ill be there soon!!!</p>',
+    `leek:none <p class="boldedText">I'm so sorry i got busy with something, I'll be there soon!!!</p>`,
     '<p class="italicText">Huh. Did she…forget?</p>',
     '<p class="italicText">Well, I can’t exactly blame her, having missed some stuff before because of…well, that’s not important.</p>',
     'jump leek_6_Cafe_1B_choice'
@@ -38,7 +38,7 @@ const leek_6_Cafe_1B = {
     }
   ],
   'leek_6_Cafe_1B_Yes':[
-    '<p class="boldedText">Its okay!! lets just do this another time then</p>',
+    `<p class="boldedText">I'ts okay!! Lets just do this another time then.</p>`,
     '<p class="italicText">Leek is quick to respond, just replying with a quick</p>',
     'leek:none <p class="boldedText">Sure, np</p>',
     '<p class="italicText">I feel…a little bad, but if she’s that busy, then I guess we have time later…</p>',
@@ -50,13 +50,12 @@ const leek_6_Cafe_1B = {
     'wait 1000',
     '<p class="italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class="italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
-    '*Go to 2B',
-    'end'
+    'jump leek_7_Room_2B_start'
   ],
   'leek_6_Cafe_1B_No':[
     '<p class="italicText">I’d feel bad about reminding her to come and then just leaving…</p>',
     '<p class="italicText">Snapping a quick picture of my drink, I reply to her panicked message.</p>',
-    '<p class="boldedText">ill be waiting!! this is a nice place to hang out anyways :)</p>',
+    `<p class="boldedText">I'll be waiting!! This is a nice place to hang out anyways :)</p>`,
     //Time passage sfx
     '<p class="italicText">Sure enough, Leek is here within a few minutes, sweat clinging to her face as she practically jogs around the corner and into the building.</p>',
     'show character leek blush with backInRight',
