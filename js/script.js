@@ -27,29 +27,36 @@ monogatari.configuration ('credits', {
 	"Director: <a href=\"https://twitter.com/zzzz_oz\">OZ</a>": {
 		"": "",
 	},
+	
+	"Executive Producer: <a href=\"https://twitter.com/RyoheiX\">ROWJ</a>": {
+		"": "",
+	},
+	
 	"Editors:": {
 		"": "",
 	},
-	"<a href=\"https://twitter.com/batalig\">Batalig</a>, <a href=\"https://twitter.com/AvrosKyargath\">Avros</a>, <a href=\"https://twitter.com/zzzz_oz\">OZ, <a href=\"https://twitter.com/vonPeterhof\">VonPeterhof</a>": {
+	"<a href=\"https://twitter.com/batalig\">Batalig</a>, <a href=\"https://twitter.com/AvrosKyargath\">Avros</a>, <a href=\"https://twitter.com/vonPeterhof\">VonPeterhof</a>": {
 		"": "",
 	},
 	"Writing Team": {
 		"Ryuwriters": "<a href=\"https://twitter.com/HeroicCaster\">Caster</a>", 
-		"": "<a href=\"https://twitter.com/LapisRoseVtuber\">Lapis Rose</a>",  
-		"": "<a href=\"https://twitter.com/keekispecial\">Keektang</a>",
-		"": "<a href=\"https://twitter.com/zzzz_oz\">OZ</a>",
+		  
+		
+		
 	},
 	"Programming": {
 		"RyuTech": "<a href=\"https://twitter.com/Kur0N0_\">Kuro</a>", 
 		"": "<a href=\"https://twitter.com/smolcatto69\">Vape Cat</a>",  
-		"": "<a href=\"https://twitter.com/DevilRightHands\">MaouHands</a>",
-		"": "<a href=\"https://twitter.com/zzzz_oz\">OZ</a>",
+		"": "Pexe",
 	},
 	"Art Team": {
 		"RyuArts": "<a href=\"https://www.twitch.tv/hayabusanero\">CattestChajiit</a>",
 		"": "<a href=\"https://twitter.com/KazCrz\">KazakeCraze</a>",
 		"": "<a href=\"https://twitter.com/Leef_is_Absent\">Leef</a>",
 		"": "<a href=\"https://twitter.com/Cobalnite\">Cobalnite</a>",
+		"   ": "<a href=\"https://twitter.com/RyoheiX\">RowJ</a>",
+		"": "<a href=\"https://twitter.com/SeabasstianB\">Seabasstian</a>",
+		
 		"Assets": "<a href=\"https://twitter.com/MelonbreadFBP\">Melonbread</a>",
 	},
 	"Sound and Music": {
@@ -59,6 +66,10 @@ monogatari.configuration ('credits', {
 		"RyuVA": [
 			"<a href=\"https://twitter.com/zhngls\">LEEK</a>", "?????????", "????????????,????????????????"
 		],
+		
+		"The Sun and the Guitar; Cover": [
+			"<a href=\"https://twitter.com/shirokuma9303\">SHIROKUMA</a>", 
+		],
 	},
 	"A/V Team": {
 		"RyuFilm": "<a href=\"https://twitter.com/ItsRyesia\">Ryesia</a>", 
@@ -67,7 +78,7 @@ monogatari.configuration ('credits', {
 		"": "<a href=\"https://twitter.com/questionablitiy\">Questia クエスティア</a>",
 	},
 	"Special Thanks to our <a href=\"https://twitter.com/FinanaRyugu\"> KAMI OSHI</a> You have changed our lives more than you'll ever know and have inspired all of us to be a better person each day. WE LOVE YOU AND HAPPY BIRTHDAY!!!!"  : {
-		"Further thanks to": ["Finana Finclub Server “Finacord” and  Avros 'DadVros' Kyargath"], 
+		"Further thanks to": ["Finana Finclub Server “Finacord” , OLcord and  Avros 'DadVros' Kyargath"], 
 		"OMEN!?- - - - -  -  -  - - - -    >": ["click me, Kya~"],
 	}
 });
