@@ -1,6 +1,8 @@
 const leek_3_Library_1A = {
   'leek_3_Library_1A_start': [
+    'stop music university with fade 2',
     'show scene split_cafe_and_library with fadeOut duration 2s',
+    'play music library with loop fade 5',
     'wait 3000',
     'show scene library with fadeIn duration 2s',
     '<p class = "italicText">Both of us agree that we could stand to get a little extra studying in, along with getting out for some company, so the library seems like the perfect place for that. I walk in a few minutes before the time we agreed to meet up, just to take a look around.</p>',
@@ -107,6 +109,7 @@ const leek_3_Library_1A = {
     '<p class = "italicText">The two of us finish our study session, a little more tired and a little smarter (hopefully) than when we started.</p>',
     '<p class = "italicText">The weeks and classes continue to pass by, and Leek and I meet more and more often for…whatever really. Like when she invites me to her dorm one day…</p>',
     'show scene library with fadeOut duration 1.5s',
+    'stop music library with fade 2',
     'wait 2000',
     'jump leek_5_Room_2A_start'
   ],
@@ -124,12 +127,13 @@ const leek_3_Library_1A = {
     '<p class = "italicText">My eyes slowly open and I lift my head, heavy and foggy, off of the table. And across from me…Leek is nowhere to be seen</p>',
     'Where did she…huh?',
     '<p class = "italicText">I catch the screen of my phone flash, a single text notification on it from Leek.</p>',
-    'leek Had to go, sry!! lost time and need to finish this',
+    'leek:none Had to go, sry!! lost time and need to finish this',
     '...shit...',
     '<p class = "italicText">I hold my phone in my hand and sigh to myself. After a minute of awkwardly trying to respond, I just pack up my things and leave the message alone.</p>',
     '<p class = "italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class = "italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
     'show scene library with fadeOut duration 1.5s',
+    'stop music library with fade 2',
     'wait 2000',
     'jump leek_7_Room_2B_start'
   ]

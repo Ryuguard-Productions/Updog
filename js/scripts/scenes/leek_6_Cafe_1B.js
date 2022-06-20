@@ -1,6 +1,8 @@
 const leek_6_Cafe_1B = {
   'leek_6_Cafe_1B_start': [
+    'stop music university with fade 2',
     'show scene split_cafe_and_library with fadeOut duration 2s',
+    'play music cafe with loop fade 5',
     'wait 3000',
     'show scene cafe_exterior with fadeIn duration 2s',
     '<p class="italicText">While there are more than a few cafes and coffee shops on or near the campus, Leek decides to show me towards one a little farther away. Nearly there, with the sun beating down on me, I remind myself about the promise of cool drinks at the destination.</p>',
@@ -50,6 +52,8 @@ const leek_6_Cafe_1B = {
     'wait 1000',
     '<p class="italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class="italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
+    'stop music cafe with fade 2',
+    'wait 1000',
     'jump leek_7_Room_2B_start'
   ],
   'leek_6_Cafe_1B_No':[
@@ -79,6 +83,7 @@ const leek_6_Cafe_1B = {
     'show character leek smile with fadeOut',
     '<p class="italicText">The weeks and classes continue to pass by, and Leek and I meet more and more often for…whatever really. Like when she invites me to her dorm one day…</p>',
     'show scene cafe_interior with fadeOut duration 2s',
+    'stop music cafe with fade 2',
     'wait 3000',
     'jump leek_5_Room_2A_start'
   ]

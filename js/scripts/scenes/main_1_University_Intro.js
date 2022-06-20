@@ -2,18 +2,18 @@ const main_1_University_Intro = {
   'main_1_University_Intro_start': [
     'show scene sakura_street with fadeIn duration 1s',
     //BGM start
-    'play music ow with loop fade 5',
+    'play music university with loop fade 5',
     '<p class = "italicText">(wind blowing, petals shifting)</p>',
     '<p class = "italicText">Cherry blossom petals fall gently in the wind, a reminder of spring beginning. And, as one falls onto my phone screen, a reminder of how late I am.</p>',
     'You can’t be serious right now…(sigh). Why is it so far awaaaay?',
     '<p class = "italicText">There is no way I would get to the university on time. So much for a good first day…</p>',
     'Well…if I have to touch grass, I may as well enjoy it! I wonder if that tea place is nearby.',
-    '<p class = "italicText">Changing the destination on my phone map, I head off on the scenic route with the spring breeze at my back. What was one missed class, right? I have a whole 4 years left after all!</p>',
+    `<p class = "italicText">Changing the destination on my phone map, I head off on the scenic route with the spring breeze at my back. What’s one missed class, right? I have a whole 4 years left after all!</p>`,
     'show scene sakura_street with fadeOut duration 2s',
     '<p class = "italicText">One hour later...</p>',
     'show scene school_gate with fadeIn duration 1s',
     //crowd talking sfx
-    'Ryuniversity’. This is definitely the place…Oh geez, that’s a lot of people.',
+    'Ryuniversity. This is definitely the place…Oh geez, that’s a lot of people.',
     '<p class = "italicText">A whole crowd of people are hanging around the main gate, many of them already in groups talking with each other. I’ve never been very good with crowds…</p>',
     'Um, excuse me…I just, um…sorry, I-',
     //bump sfx
@@ -34,7 +34,7 @@ const main_1_University_Intro = {
     'wait 1000',
     'show scene park with fadeIn duration 2s',
     //BGM start
-    '<p class = "italicText">A lot of the crowd have gone off to class now. My next one doesn’t start until later in the afternoon, so I decide to take a seat on a nearby bench and pull out my own phone.</p>',
+    '<p class = "italicText">A lot of the crowd has gone off to class now. My next one doesn’t start until later in the afternoon, so I decide to take a seat on a nearby bench and pull out my own phone.</p>',
     'Let’s see here…',
     '<p class = "italicText">Looking over the notification from the lost phone, I type the number into my own to call…actually, I think I’ll just text them back…</p>',
     '<p class = "boldedText">Hi, I found your lost phone! Where should I bring it?</p>',

@@ -70,7 +70,13 @@ monogatari.assets ('gallery', {
 // Define the music used in the game.
 monogatari.assets ('music', {
 	'dcl': 'dcl.ogg',
-	'ow': 'ow.ogg'
+	'ow': 'ow.ogg',
+	'university': 'University2.wav',
+	'library': 'Library.wav',
+	'leek_bad_end': 'Bad_End.wav',
+	'leek_good_end': 'leekGoodEnd.wav',
+	'leek_room': 'leekRoom.wav',
+	'cafe': 'Cafe.wav'
 });
 
 // Define the sounds used in the game.
@@ -104,6 +110,8 @@ monogatari.assets ('scenes', {
 	school_gate: 'School_gate.jpg',
 	sakura_street:'OTOME_BG_Sakura_Street.jpg',
 	park: 'Otome_BG_Park_Kaze.jpg',
+	classroom: 'Otome_Classroom.jpg',
+	leek_bad_end: 'leek_bad_end.png',
 	grey_bg:'greyBG.png'
 });
 
@@ -150,5 +158,6 @@ monogatari.script ({
 	...leek_6_Cafe_1B,
 	...main_1_University_Intro,
 	...leek_7_Room_2B,
+  ...leek_8_Room_BadEnd,
   // create-new-scene-helper
 });

@@ -11,7 +11,7 @@ const leek_2_classroom_intro = {
     '<p class = "italicText">A lot of the students coming in and out of the building seem…smarter? It’s hard to describe I guess, but they give off the vibe of people who definitely belong here. Oh god, I hope I’m not standing out too much.</p>',
     '<p class = "italicText">It seems like a lot of people are leaving right now. Maybe the class just ended? I should hurry inside before I miss them.</p>',
     '<p class = "italicText">Speaking of which, I wonder what kind of person they are. They seemed nice when they texted, but I’m still a little nervous…</p>',
-    'show scene library with fadeIn duration 1s',
+    'show scene classroom with fadeIn duration 1s',
     'Huh? There’s only one person here?',
     'show character leek sigh with fadeIn duration 1s',
     '<p class = "italicText">At one of the seats is a white haired girl typing away at a laptop, a focused and concerned expression on her face.</p>',
@@ -57,8 +57,7 @@ const leek_2_classroom_intro = {
     'play voice leek_intro_9',
     'leek:smile Don’t worry, I’ll let you know when I’m available. You try not to fail on your first day.',
     '<p class = "italicText">She waves me off and I quickly make my way out of the building at a quick pace, a smile stuck to my face. My first friend came easier than I expected.</p>',
-    'show scene cafe_exterior with fadeIn duration 1s',
-    '*Just pretend this is university bg*',
+    'show scene school_gate with fadeIn duration 1s',
     '<p class = "italicText">I ended up chatting with Leek a few times over the next week or so, but I still haven’t met up with her yet. She said she’s a biomedical engineering major, which sounds…complicated, to say the least. She is a couple years above me and seems busy with schoolwork and studying, even though it’s only the beginning of the year.</p>',
     '<p class = "italicText">Eventually, she lets me know that she’d be down to meet up over the weekend, just to chill somewhere.</p>',
     'jump leek_2_classroom_intro_choice'

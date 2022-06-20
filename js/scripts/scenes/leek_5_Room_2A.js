@@ -1,7 +1,7 @@
 const leek_5_Room_2A = {
   'leek_5_Room_2A_start': [
     'show scene leek_room_daytime with fadeIn duration 1.5s',
-    //change BGM
+    'play music leek_room with loop fade 5',
     '<p class = "italicText">Leek’s dorm is on campus, just a short distance away from the main gate. It’s a nice building that they built recently and she seems to have a room to herself.</p>',
     'show character leek neutral with fadeIn',
     '<p class = "italicText">So it’s just the two of us hanging out in her room on a quiet afternoon, with Leek at her computer while I sit by her bed, idly browsing my phone.</p>',
@@ -77,6 +77,7 @@ const leek_5_Room_2A = {
     'show character leek smile with fadeIn',
     '<p class = "italicText">A smile on my face, I briefly step out of the room, making my way to get Leek her cup of tea.</p>',
     'show scene leek_room_sunset with fadeOut duration 2s',
+    'stop music leek_room with fade 2',
     'wait 4000',
     'jump leek_4_Room_GoodEnd_start'
   ],
@@ -90,8 +91,9 @@ const leek_5_Room_2A = {
     'show scene school_gate with fadeIn duration 1s',
     '<p class = "italicText">I leave her dorm, making my way off campus. I hope Leek gets whatever that is done. I wonder when she’ll be available next…</p>',
     'show scene school_gate with fadeOut duration 2s',
-    'wait 2500',
-    '*move to Bad End',
+    'stop music leek_room with fade 2',
+    'wait 4000',
+    'jump leek_8_Room_BadEnd_start',
     'end'
   ]
 };

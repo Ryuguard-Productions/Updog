@@ -1,6 +1,7 @@
 const leek_7_Room_2B = {
   'leek_7_Room_2B_start': [
     'show scene leek_room_nightlight with fadeIn duration 2s',
+    'play music leek_room with loop fade 5',
     '<p class = "italicText">Leek’s dorm is on campus, just a short distance away from the main gate. It’s a nice building that they built recently and she seems to have a room to herself.</p>',
     '<p class = "italicText">So it’s just the two of us in her dorm, with our study session just barely coming to a close well after dusk; night has settled outside Leek’s window and both of us are starting to feel a little tired.</p>',
     'show character leek sigh with fadeIn',
@@ -58,12 +59,30 @@ const leek_7_Room_2B = {
     '<p class = "italicText">And with that, I leave Leek’s dorm while she stares at her computer, opening something to work on.</p>',
     '<p class = "italicText">I make a note to myself to start hanging out with Leek more often. I’m sure we’ll meet up again soon.</p>',
     '<p class = "italicText">Right?</p>',
-    '*go to bad end',
+    'show scene leek_room_nightlight with fadeOut duration 2s',
+    'stop music leek_room with fade 2',
+    'wait 4000',
+    'jump leek_8_Room_BadEnd_start',
     'end'
   ],
   'leek_7_Room_2B_No':[
     'If it’s alright with you, I kinda want to stay and hang out.',
-    '*waiting for update',
-    'end'
+    'show character leek shocked with fadeIn',
+    '<p class = "italicText">Leek pauses in her seat as the words leave my mouth. She shifts a little, as if the way the thought bounces inside her head was making her actually move.</p>',
+    'show character leek sad with fadeIn',
+    "leek:sad You…you know I’m just going to work on stuff right? Like I always do?",
+    '<p class = "italicText">She says that last part a little bitterly, as if it were something said by someone else instead.</p>',
+    'And I don’t mind that one bit. Come on, let’s order some food, that study session left me starving.',
+    'show character leek shocked with fadeIn',
+    'wait 2000',
+    '<p class = "italicText">Leek does that thing again, where she opens her mouth to say something but just changes her mind. Though this time, she sighs and laughs.</p>',
+    'show character leek sigh',
+    'wait 2000',
+    'show character leek laugh with exclaim',
+    'leek:laugh Yeah, sure…thanks.',
+    'show scene leek_room_nightlight with fadeOut duration 2s',
+    'stop music leek_room with fade 2',
+    'wait 4000',
+    'jump leek_4_Room_GoodEnd_start'
   ]
 };
