@@ -1,6 +1,5 @@
 const leek_2_classroom_intro = {
   'leek_2_classroom_intro_start': [
-    'show scene chatting_leek with fadeIn duration 1s',
     'leek:none <p class = "boldedText">Thank you so much!!! Can you come to Lecture Hall A at the Sciences Building, I’m still in class rn</p>',
     'Great! Let’s see, that building is over…',
     '<p class = "italicText">I pull up the university map on my phone and take a look to see how far away the building is. Not too far by the looks of it, so I should be able to make it there and then to my next class.</p>',
@@ -64,7 +63,8 @@ const leek_2_classroom_intro = {
     'leek:smile Don’t worry, I’ll let you know when I’m available. You try not to fail on your first day.',
     '<p class = "italicText">She waves me off and I quickly make my way out of the building at a quick pace, a smile stuck to my face. My first friend came easier than I expected.</p>',
     'show scene school_gate with fadeIn duration 1s',
-    '<p class = "italicText">I ended up chatting with Leek a few times over the next week or so, but I still haven’t met up with her yet. She said she’s a biomedical engineering major, which sounds…complicated, to say the least. She is a couple years above me and seems busy with schoolwork and studying, even though it’s only the beginning of the year.</p>',
+    '<p class = "italicText">I ended up chatting with Leek a few times over the next week or so, but I still haven’t met up with her yet. She said she’s a biomedical engineering major, which sounds…complicated, to say the least.</p>',
+    '<p class = "italicText">She is a couple years above me and seems busy with schoolwork and studying, even though it’s only the beginning of the year.</p>',
     '<p class = "italicText">Eventually, she lets me know that she’d be down to meet up over the weekend, just to chill somewhere.</p>',
     'jump leek_2_classroom_intro_choice'
   ],

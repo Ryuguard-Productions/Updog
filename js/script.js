@@ -86,7 +86,7 @@ monogatari.assets ('sounds', {
 
 // Define the videos used in the game.
 monogatari.assets ('videos', {
-
+	credits: 'ProjectUpdogCredits_360p.mp4'
 });
 
 // Define the images used in the game.
@@ -158,6 +158,6 @@ monogatari.script ({
 	...leek_6_Cafe_1B,
 	...main_1_University_Intro,
 	...leek_7_Room_2B,
-  ...leek_8_Room_BadEnd,
+  	...leek_8_Room_BadEnd,
   // create-new-scene-helper
 });
