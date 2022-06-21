@@ -99,7 +99,7 @@ monogatari.assets ('scenes', {
 	cafe_interior: 'cafe-interior.jpg',
 	cafe_exterior: 'cafe-exterior.jpg',
 	chatting_leek: 'chatting-leek.png',
-	science_building: 'science-building.png',
+	science_building: 'Otome_BG_ScienceBuilding_Kaze.jpg',
 	library: 'library.jpg',
 	split_cafe_and_library: 'split_cafe_and_library.png',
 	leek_room_daytime: 'Otome_BG_Leeks_Room_DAYTIME.jpg',

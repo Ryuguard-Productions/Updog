@@ -34,7 +34,7 @@ const main_1_University_Intro = {
     'wait 1000',
     'show scene park with fadeIn duration 2s',
     //BGM start
-    '<p class = "italicText">A lot of the crowd has gone off to class now. My next one doesn’t start until later in the afternoon, so I decide to take a seat on a nearby bench and pull out my own phone.</p>',
+    '<p class = "italicText">A lot of the crowd has gone to class now. My next one doesn’t start until later in the afternoon, so I decide to take a seat on a nearby bench and pull out my own phone.</p>',
     'Let’s see here…',
     '<p class = "italicText">Looking over the notification from the lost phone, I type the number into my own to call…actually, I think I’ll just text them back…</p>',
     '<p class = "boldedText">Hi, I found your lost phone! Where should I bring it?</p>',
