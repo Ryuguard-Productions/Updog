@@ -52,6 +52,9 @@ const leek_6_Cafe_1B = {
     'wait 1000',
     '<p class="italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class="italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'stop music cafe with fade 2',
     'wait 1000',
     'jump leek_7_Room_2B_start'
@@ -85,6 +88,9 @@ const leek_6_Cafe_1B = {
     '<p class="italicText">We have a nice chat and some good drinks while Leek cools down, taking a break from the business in both of our schedules. Before we notice it, the day ticks by and soon we make our own way.</p>',
     'show character leek smile with fadeOut',
     '<p class="italicText">The weeks and classes continue to pass by, and Leek and I meet more and more often for…whatever really. Like when she invites me to her dorm one day…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene cafe_interior with fadeOut duration 2s',
     'stop music cafe with fade 2',
     'wait 3000',

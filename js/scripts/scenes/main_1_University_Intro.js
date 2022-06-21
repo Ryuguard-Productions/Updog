@@ -28,8 +28,11 @@ const main_1_University_Intro = {
     //BGM slows/changes
     '<p class = "italicText">I wonder, if I knew what would happen from picking up that phone, would I still have done it?</p>',
     '<p class = "italicText">No, I don’t think I would have believed it. After all, who expects romance on their first day…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene school_gate with fadeIn duration 2s',
-    '<p class = "italicText">*Main intro woooo</p>',
+    'wait 3000',
     'show scene school_gate with fadeOut duration 1s',
     'wait 1000',
     'show scene park with fadeIn duration 2s',

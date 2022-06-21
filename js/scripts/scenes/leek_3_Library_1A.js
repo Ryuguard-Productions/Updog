@@ -1,5 +1,8 @@
 const leek_3_Library_1A = {
   'leek_3_Library_1A_start': [
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'stop music university with fade 2',
     'show scene split_cafe_and_library with fadeOut duration 2s',
     'play music library with loop fade 5',
@@ -127,6 +130,9 @@ const leek_3_Library_1A = {
     //bgm here
     '<p class = "italicText">The two of us finish our study session, a little more tired and a little smarter (hopefully) than when we started.</p>',
     '<p class = "italicText">The weeks and classes continue to pass by, and Leek and I meet more and more often for…whatever really. Like when she invites me to her dorm one day…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene library with fadeOut duration 1.5s',
     'stop music library with fade 2',
     'wait 2000',
@@ -151,6 +157,9 @@ const leek_3_Library_1A = {
     '<p class = "italicText">I hold my phone in my hand and sigh to myself. After a minute of awkwardly trying to respond, I just pack up my things and leave the message alone.</p>',
     '<p class = "italicText">Leek and I continue to text every once in a while when we feel like chatting, but continue not to meet up very often.</p>',
     '<p class = "italicText">It’s not until I ask Leek for some help on class work that I meet up with her again, for a small study session at her place…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene library with fadeOut duration 1.5s',
     'stop music library with fade 2',
     'wait 2000',

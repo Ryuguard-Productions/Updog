@@ -85,6 +85,9 @@ const leek_5_Room_2A = {
     "Yes, ma’am.",
     'show character leek smile with fadeIn',
     '<p class = "italicText">A smile on my face, I briefly step out of the room, making my way to get Leek her cup of tea.</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene leek_room_sunset with fadeOut duration 2s',
     'stop music leek_room with fade 2',
     'wait 4000',
@@ -100,6 +103,9 @@ const leek_5_Room_2A = {
     'Don’t worry about it. Good luck with your work.',
     'show scene school_gate with fadeIn duration 1s',
     '<p class = "italicText">I leave her dorm, making my way off campus. I hope Leek gets whatever that is done. I wonder when she’ll be available next…</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene school_gate with fadeOut duration 2s',
     'stop music leek_room with fade 2',
     'wait 4000',

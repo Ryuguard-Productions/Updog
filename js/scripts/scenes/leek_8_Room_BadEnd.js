@@ -19,6 +19,9 @@ const leek_8_Room_BadEnd = {
     '<p class = "italicText">(Leek sighs and makes a stretching noise. She seems exhausted, even more so than in the main route, to the point where it appears to be mental and emotional exhaustion, not just physical)</p>',
     'play voice leek_roomBE_6',
     'leek:none Back to work…',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene leek_bad_end with fadeOut duration 3s',
     'stop music leek_bad_end with fade 2',
     'wait 2000',

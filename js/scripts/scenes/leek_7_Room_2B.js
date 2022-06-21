@@ -64,6 +64,9 @@ const leek_7_Room_2B = {
     '<p class = "italicText">And with that, I leave Leek’s dorm while she stares at her computer, opening something to work on.</p>',
     '<p class = "italicText">I make a note to myself to start hanging out with Leek more often. I’m sure we’ll meet up again soon.</p>',
     '<p class = "italicText">Right?</p>',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene leek_room_nightlight with fadeOut duration 2s',
     'stop music leek_room with fade 2',
     'wait 4000',
@@ -87,6 +90,9 @@ const leek_7_Room_2B = {
     'show character leek laugh with exclaim',
     'play voice leek_room2B_7',
     'leek:laugh Yeah, sure…thanks.',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene leek_room_nightlight with fadeOut duration 2s',
     'stop music leek_room with fade 2',
     'wait 4000',

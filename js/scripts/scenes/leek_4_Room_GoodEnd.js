@@ -17,6 +17,9 @@ const leek_4_Room_GoodEnd = {
     'play voice leek_roomGE_3',
     'leek:none <p>Ooo, so scary.<br>Still gonna keep me company?</p>',
     'Of course. Wouldn’t rather be anywhere else.',
+    function(){
+      this.element().find('[data-component="text-box"]').hide()
+    },
     'show scene leek_good_end with fadeOut duration 2s',
     'stop music leek_good_end with fade 2',
     'wait 3000',
