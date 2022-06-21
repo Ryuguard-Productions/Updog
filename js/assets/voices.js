@@ -1,5 +1,5 @@
 const leekIntroVoices = generateVoices(9, 'leek', 'intro', 'classroomScene/leek', 'mp3');
-const leekLibrary1AVoices = generateVoices(5, 'leek', 'library1A', '1A/leek', 'mp3');
+const leekLibrary1AVoices = generateVoices(8, 'leek', 'library1A', '1A/leek', 'mp3');
 const leekRoom2AVoices = generateVoices(11, 'leek', 'room2A', '2A/leek', 'mp3');
 const leekCafe1BVoices = generateVoices(3, 'leek', 'cafe1B', '1B/leek', 'mp3');
 const leekRoom2BVoices = generateVoices(7, 'leek', 'room2B', '2B/leek', 'mp3');
