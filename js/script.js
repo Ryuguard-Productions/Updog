@@ -45,14 +45,13 @@ monogatari.configuration ('credits', {
     "Sound and Music": `
       <a target='_blank' href='https://twitter.com/crimson_king73'>Vince</a><br>
       <a target='_blank' href='https://twitter.com/TCBNmusic'>Tachibana Music</a><br>
-      <a target='_blank' href='https://twitter.com/shirokuma9303'>SHIROKUMA</a>`,
-	
-	<OST from Dova syndrome' href='https://youtu.be/QuXpyxsMWoQ',>
-	<a target='_blank''href=https://youtu.be/WjTfstR1Y9M',>
-	<a target='_blank''href=https://youtu.be/GWomplGkvCs',>
-	<a target='_blank''href=https://youtu.be/kcj54YgsZsI',>
-	<a target='_blank''href=https://youtu.be/Gh0UlncJ3LM'.>
-		
+      <a target='_blank' href='https://twitter.com/shirokuma9303'>SHIROKUMA</a><br>
+			<a target='_blank' href='https://twitter.com/AvrosKyargath'>Avros</a><br>
+			<a target='_blank' href='https://youtu.be/QuXpyxsMWoQ'>DOVA-SYNDROME Jazzy Rider</a><br>
+			<a target='_blank' href='https://youtu.be/WjTfstR1Y9M'>DOVA-SYNDROME Lo-fi Chat</a><br>
+			<a target='_blank' href='https://youtu.be/GWomplGkvCs'>DOVA-SYNDROME URBAN CITY</a><br>
+			<a target='_blank' href='https://youtu.be/kcj54YgsZsI'>DOVA-SYNDROME こわれた夢</a><br>
+			<a target='_blank' href='https://youtu.be/Gh0UlncJ3LM'>DOVA-SYNDROME 最後の階段</a>`,
     "Voice Actors": `
       <a target='_blank' href='https://twitter.com/zhngls'>Leek</a><br>
       ???<br>
@@ -63,7 +62,10 @@ monogatari.configuration ('credits', {
       <a target='_blank' href='https://twitter.com/questionablitiy'>Questia クエスティア</a><br>
       <a target='_blank' href='https://twitter.com/DGBCH11'>Colin The Ryuguard</a><br>
       <a target='_blank' href='https://twitter.com/NijiEnTako'>Tako</a>`,
-    "Misc": `Finana Finclub Discord Server, Avros "DadVros" Kyargath and OLcord`
+    "Misc": `Finana Finclub Discord Server and OLcord`,
+		"Assets (Google Drive)": `
+			<a target='_blank' href='https://drive.google.com/drive/folders/1PioTuQOBU2mH0AiyfU8U6zNX1Tl9ONDn'>Music</a><br>
+			<a target='_blank' href='https://drive.google.com/drive/folders/1wO-Tpr3y07sTk8gs2POTLvMPotmhxZlz'>Art</a>`
 	},
 	"Special Thanks to our <a target='_blank' href='https://twitter.com/FinanaRyugu'>KAMI OSHI</a><br>You have changed our lives more than you'll ever know and have inspired all of us to be a better person each day<br>WE LOVE YOU AND HAPPY BIRTHDAY!!!!" : {}
 });
