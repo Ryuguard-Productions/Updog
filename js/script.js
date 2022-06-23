@@ -80,9 +80,9 @@ monogatari.assets ('gallery', {
 monogatari.assets ('music', {
 	'dcl': 'dcl.mp3',
 	'ow': 'ow.ogg',
-	'university': 'University2.wav',
-	'library': 'Library.wav',
-	'leek_bad_end': 'Bad_End.wav',
+	'university': 'RYUniversity.mp3',
+	'library': 'Feesh_n_chill.mp3',
+	'leek_bad_end': 'Bad_End.mp3',
 	'leek_good_end': 'leekGoodEnd.wav',
 	'leek_room': 'leekRoom.wav',
 	'cafe': 'Cafe.wav'
