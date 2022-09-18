@@ -54,7 +54,7 @@ $_ready (() => {
 
 function onWarningScreenDone (warningScreen) {
 	if (warningScreen.style.display === 'none') return;
-	const audio = new Audio('./assets/voices/classroomScene/leek/leek_intro_2.mp3');
+	const audio = new Audio('./assets/voices/misc/peshi.mp3');
 	audio.volume = 0.5;
 	audio.play();
 	warningScreen.style.display = 'none';
