@@ -35,7 +35,7 @@ $_ready (() => {
 	warningScreen.addEventListener('click', () => {
 		const allowPlayback = document.querySelector('[data-content="allow-playback"]');
 		monogatari.playAmbient();
-		allowPlayback.style.display = 'none';
+		if (allowPlayback) allowPlayback.style.display = 'none';
 		onWarningScreenDone(warningScreen);
 	});
 
