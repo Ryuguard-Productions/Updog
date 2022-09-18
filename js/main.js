@@ -30,6 +30,14 @@ const { $_ready, $_ } = Monogatari;
 
 $_ready (() => {
 	// 2. Inside the $_ready function:
+	const warningScreen = document.querySelector('.warning-screen');
+
+	warningScreen.addEventListener('click', () => {
+		const allowPlayback = document.querySelector('[data-content="allow-playback"]');
+		monogatari.playAmbient();
+		allowPlayback.style.display = 'none';
+		onWarningScreenDone(warningScreen);
+	});
 
 	monogatari.init ('#monogatari').then (() => {
 		// 3. Inside the init function:
@@ -43,3 +51,11 @@ $_ready (() => {
 		}
 	});
 });
+
+function onWarningScreenDone (warningScreen) {
+	if (warningScreen.style.display === 'none') return;
+	const audio = new Audio('./assets/voices/classroomScene/leek/leek_intro_2.mp3');
+	audio.volume = 0.5;
+	audio.play();
+	warningScreen.style.display = 'none';
+}

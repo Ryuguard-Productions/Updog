@@ -256,6 +256,36 @@ input[type=range]::-ms-fill-upper {
 
 /** CUSTOM CSS **/
 
+.warning-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 21;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+.warning-screen-text {
+	text-align: center;
+	opacity: 0;
+	animation: fade-in 1s linear forwards;
+}
+
+@keyframes fade-in {
+	0% {
+    opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 [data-component=visual-novel] {
 	background-image: url(./assets/scenes/School_gate.jpg);
 	background-size: cover;
